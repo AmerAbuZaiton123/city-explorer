@@ -12,7 +12,7 @@ export default class FormExplorer extends Component {
                             <Form.Control type="text" placeholder="City Name" onChange={this.props.FormDataLocation} />
                         </Form.Group>
                     </Row>
-                            <Button className="explore" variant="dark" type="submit">
+                            <Button className="explore" info="dark" type="submit">
                                 Explore
                            </Button>
                 </Form>  
